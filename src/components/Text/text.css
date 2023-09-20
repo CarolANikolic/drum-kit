@@ -1,0 +1,12 @@
+.title {
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    font-size: 6rem;
+    text-shadow: 6px 3px #DA0463;
+    margin-top: 8rem;
+}
+
+.paragraph {
+    color: #fff;
+    font-size: 2.5rem;
+}

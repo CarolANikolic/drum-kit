@@ -1,0 +1,26 @@
+.instrumentContainer {
+    align-self: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 600px;
+    width: 90%;
+}
+
+.btn {
+    background-color: #fff;
+    border: 10px solid #404B69;
+    color: #DA0463;
+    font-family: 'Arvo', cursive;
+    font-size: 5rem;
+    font-weight: 900;
+    height: 100%;
+    text-shadow: 3px 0 #DBEDF3;
+    width: 100%;
+}
+
+.btn:last-child {
+    grid-column: 2 / 3;
+    margin: 0 auto;
+}  

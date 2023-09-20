@@ -1,9 +1,18 @@
 html {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   background-color: #283149;
+  text-align: center;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
