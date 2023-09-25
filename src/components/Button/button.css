@@ -47,6 +47,11 @@
     background-position: left 10%;
 }
 
+.drumBtn:active {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;     
+}
+
 /* Style for GalaxyS9+ */
 @media 
 only screen and (-webkit-min-device-pixel-ratio: 4),
