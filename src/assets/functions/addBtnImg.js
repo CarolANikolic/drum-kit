@@ -1,8 +1,6 @@
-import drum from "../objects/drum.js";
-
-const addBtnImg = (drumBtn, index) => {
-    const drumImg = drum[index];
-    drumBtn.style.backgroundImage = `url(${drumImg.imgSrc})`; 
+const addBtnImg = (instrument, button, index) => {
+    const instrumentImg = instrument[index];
+    button.style.backgroundImage = `url(${instrumentImg.imgSrc})`; 
 }
 
 export default addBtnImg

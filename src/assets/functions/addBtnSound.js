@@ -1,7 +1,5 @@
-import drumSounds from "../objects/drumSounds.js";
-
-const addBtnSound = (index) => {
-    let audio = new Audio(drumSounds[index].soundSrc);
+const addBtnSound = (instrument, index) => {
+    let audio = new Audio(instrument[index].soundSrc);
     audio.play();
 }
 
