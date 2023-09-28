@@ -1,4 +1,4 @@
-const Button = (type, content, keyword, action) => {
+const Button = (type, content, keyword, event, action) => {
     const generalBtn = document.createElement("button");
     generalBtn.type = type;
     generalBtn.textContent = content;
@@ -7,7 +7,7 @@ const Button = (type, content, keyword, action) => {
         generalBtn.setAttribute("data-keyword", keyword),
         generalBtn.classList.add(keyword)
     ) : '';
-    generalBtn.addEventListener("click", action);
+    generalBtn.addEventListener(event, action);
 
     return generalBtn
 }

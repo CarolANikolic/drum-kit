@@ -7,11 +7,15 @@ const createInstrumentButtons = (instrument, buttonType, buttonClass, soundFunct
     instrument.map((item, index) => {
             const button = Button(
                 buttonType, 
-                item.drumKey, 
+                item.instrumentKey, 
                 buttonClass, 
+                "click",
+                // Add a sound to each of the buttons
                 () => soundFunction(instrument, index)
                 );
-                imageFunction(instrument, button, index);
+            
+            // Add a background image to each of the buttons
+            imageFunction(instrument, button, index);
             instrumentContainer.appendChild(button);
     });
 

@@ -1,37 +1,37 @@
 const drum = [
     {
         imgSrc: "../public/images/tom1.png",
-        drumKey: "w",
+        instrumentKey: "w",
         soundSrc: "../public/sounds/tom-1.mp3",
     },
     {
         imgSrc: "../public/images/tom2.png",
-        drumKey: "a",
+        instrumentKey: "a",
         soundSrc: "../public/sounds/tom-2.mp3",
     },
     {
         imgSrc: "../public/images/tom3.png",
-        drumKey: "s",
+        instrumentKey: "s",
         soundSrc: "../public/sounds/tom-3.mp3",
     },
     {
         imgSrc: "../public/images/tom4.png",
-        drumKey: "d",
+        instrumentKey: "d",
         soundSrc: "../public/sounds/tom-4.mp3",
     },
     {
         imgSrc: "../public/images/snare.png",
-        drumKey: "j",
+        instrumentKey: "j",
         soundSrc: "../public/sounds/snare.mp3",
     },
     {
         imgSrc: "../public/images/crash.png",
-        drumKey: "k",
+        instrumentKey: "k",
         soundSrc: "../public/sounds/crash.mp3",
     },
     {
         imgSrc: "../public/images/kick.png",
-        drumKey: "l",
+        instrumentKey: "l",
         soundSrc: "../public/sounds/kick-bass.mp3",
     },
 ]

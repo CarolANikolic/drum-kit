@@ -1,6 +1,6 @@
-const addBtnSound = (instrument, index) => {
+const makeSound = (instrument, index) => {
     let audio = new Audio(instrument[index].soundSrc);
     audio.play();
 }
 
-export default addBtnSound
+export default makeSound
