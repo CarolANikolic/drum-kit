@@ -19,5 +19,5 @@ main.appendChild(createInstrumentButtons(
 ));
 main. appendChild(Text("p", "Made with ♥ by Carol"))
 
-// Add an event listener for handling keypressed on keyboard
+// Add an event listener for handling keydown on keyboard
 addKeyboardSound(drum, (drum, index) => makeSound(drum, index));

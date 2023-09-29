@@ -2,7 +2,7 @@
     align-self: center;
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     width: 90%;
 }
@@ -20,8 +20,9 @@
 }
 
 .btn:last-child {
-    grid-column: 2 / 3;
+    grid-column: span 2;
     margin: 0 auto;
+    width: 50%;
 }
 
 .drumBtn {
@@ -65,9 +66,15 @@ only screen and (min-resolution: 4dppx) {
         align-self: center;
         display: grid;
         gap: 10px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         width: 100%;
+    }
+
+    .btn:last-child {
+        grid-column: span 2;
+        margin: 0 auto;
+        width: 50%;
     }
 }
 
