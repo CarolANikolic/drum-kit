@@ -1,5 +1,3 @@
-import makeSound from "./makeSound.js"
-
 const addKeyboardSound = (instrument, action) => {
     document.addEventListener("keydown", (e) => {
         for (let index = 0; index < instrument.length; index++) {
