@@ -4,7 +4,9 @@
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 90%;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .btn {
