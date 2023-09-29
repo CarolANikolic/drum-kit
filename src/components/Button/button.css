@@ -95,6 +95,7 @@ only screen and (min-resolution: 4dppx) {
 
     .btn:last-child {
         grid-column: auto;
+        width: 100%;
     } 
 
     .drumBtn:nth-child(3) {

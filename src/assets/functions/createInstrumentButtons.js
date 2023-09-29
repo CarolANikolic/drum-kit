@@ -15,7 +15,7 @@ const createInstrumentButtons = (instrument, buttonType, buttonClass, soundFunct
                 );
             
             // Add a background image to each of the buttons
-            imageFunction(instrument, button, index);
+            // imageFunction(instrument, button, index);
             instrumentContainer.appendChild(button);
     });
 
