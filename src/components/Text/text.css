@@ -2,6 +2,7 @@
     color: #DBEDF3;
     font-family: "Arvo", cursive;
     font-size: 4.5rem;
+    text-align: center;
     text-shadow: 6px 3px #DA0463;
     margin-top: 8rem;
 }
@@ -9,6 +10,7 @@
 .paragraph {
     color: #fff;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 /* Style for GalaxyS9+ */
