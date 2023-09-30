@@ -9,7 +9,7 @@ import addKeyboardSound from "./src/assets/functions/addKeyboardSound.js";
 const main = document.querySelector("main");
 
 // Append text and drum buttons
-main.appendChild(Text("h1", "Drum Kit"));
+main.appendChild(Text("h1", "Drum 🥁 Kit"));
 main.appendChild(createInstrumentButtons(
     drum, 
     "button", 
@@ -17,7 +17,7 @@ main.appendChild(createInstrumentButtons(
     (drum, index) => makeSound(drum, index), // Pass the necessary parameters to addBtnSound
     (drum, button, index) => addBtnImg(drum, button, index) // Pass the necessary parameters to addBtnImg
 ));
-main. appendChild(Text("p", "Made with ♥ by Carol"))
+main. appendChild(Text("p", "Made with ❤️ by Carol"))
 
 // Add an event listener for handling keydown on keyboard
 addKeyboardSound(drum, (drum, index) => makeSound(drum, index));
