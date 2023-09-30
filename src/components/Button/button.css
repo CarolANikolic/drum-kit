@@ -4,7 +4,7 @@
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 100px;
+    max-width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -91,7 +91,6 @@ only screen and (min-resolution: 4dppx) {
 
     .drumBtn {
         width: 50%;
-        background-size: 120%;
     }
 
     .btn:last-child {
