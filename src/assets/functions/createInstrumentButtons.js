@@ -11,13 +11,15 @@ const createInstrumentButtons = (instrument, buttonType, buttonClass, soundFunct
                 buttonClass, 
                 "click",
                 // Add a sound to each of the buttons
-                () => soundFunction(instrument, index)
-                );
+                () => soundFunction(instrument, index),
+            );
             
             // Add a background image to each of the buttons
             imageFunction(instrument, button, index);
+
+            // Append the buttons into the DOM
             instrumentContainer.appendChild(button);
-    });
+        });
 
     return instrumentContainer
 }
